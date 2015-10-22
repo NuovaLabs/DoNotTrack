@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Oppilo
+
+  Created by Kinshuk  Kar on 10/1/15.
+  Copyright © 2015 Nuova Labs. All rights reserved.
+*/
+
+
+"WELCOME_TITLE"         = "Welcome to %@!";
+"WELCOME_MSG"           = "You have taken the first step to make your browsing ad-free and lightning fast.\n\n\nA quick setup and you are ready to go.";
+"DONE"                  = "Done";
+"ADD"                   = "Add";
+"CANCEL"                = "Cancel";
+"HELP"                  = "Help";
+"RATE"                  = "Rate";
+"ADD_WHITELIST_TITLE"   = "Add whitelist domain";
+"WHITELIST_DOMAIN"      = "Whitelist domain";
+"WHITELIST_HELP_TXT"    = "Add a whitelist domain to avoid blocking on that website.";
+"SETUP_APP"             = "Setup %@";
+"GO_TO_SETTINGS"        = "Go to \"Settings\"";
+"WHITELIST_DOMAIN_PLACEHOLDER"      = "Whitelist domain : www.example.com";

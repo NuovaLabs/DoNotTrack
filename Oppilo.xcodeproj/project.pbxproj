@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E9968991BC6487000939CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9968981BC6487000939CBC /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		9E99689C1BC673F900939CBC /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E34B0EE1BBD60AD0052B7A2 /* PageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9E99689E1BC673FD00939CBC /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E34B0EC1BBD60AD0052B7A2 /* MessageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9E9968A01BC6740700939CBC /* AppSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E34B0E71BBD60AD0052B7A2 /* AppSetupViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9E9968A21BC6740A00939CBC /* ExtensionSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E34B0E91BBD60AD0052B7A2 /* ExtensionSetupViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9E9968A51BC6814B00939CBC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E9968A41BC6814B00939CBC /* Localizable.strings */; settings = {ASSET_TAGS = (); }; };
+		9E9968A81BC6BF3100939CBC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9968A71BC6BF3100939CBC /* MessageUI.framework */; };
+		BBE3DD731BBD2F800002E5A4 /* PrivacyNuContentBlocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BBE3DD221BBD2D360002E5A4 /* PrivacyNuContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BBE3DDBA1BBD34AF0002E5A4 /* ParallaxScrollingFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2BB9301BBAC9C2003AB58D /* ParallaxScrollingFramework.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE3A1BBD516D0002E5A4 /* OppilioAppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE3DE391BBD516D0002E5A4 /* OppilioAppConstants.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE3B1BBD516D0002E5A4 /* OppilioAppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE3DE391BBD516D0002E5A4 /* OppilioAppConstants.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE3D1BBD524E0002E5A4 /* AvailableBlockList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBE3DE3C1BBD524E0002E5A4 /* AvailableBlockList.plist */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE3E1BBD524E0002E5A4 /* AvailableBlockList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBE3DE3C1BBD524E0002E5A4 /* AvailableBlockList.plist */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE421BBD53750002E5A4 /* NuBlockListProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC575F11BBC519D0014F60B /* NuBlockListProperties.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE441BBD537A0002E5A4 /* NUWhiiteListRule.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE3DBF21BBD13DE0002E5A4 /* NUWhiiteListRule.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE461BBD537F0002E5A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB04563F1BB9D8B700A0239E /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE481BBD53850002E5A4 /* OppiloUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF125AE1BBC27FD001A317B /* OppiloUtils.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE491BBD53860002E5A4 /* OppiloUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF125AE1BBC27FD001A317B /* OppiloUtils.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE4C1BBD53B50002E5A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0456421BB9D8B700A0239E /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE4E1BBD53BA0002E5A4 /* OppiloManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF125A31BBC01DB001A317B /* OppiloManager.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE501BBD53BF0002E5A4 /* OppiloBlockerListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF125A71BBC07AF001A317B /* OppiloBlockerListManager.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE521BBD53C50002E5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0456441BB9D8B700A0239E /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE581BBD53D60002E5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0456491BB9D8B700A0239E /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE5A1BBD53DE0002E5A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB04563C1BB9D8B700A0239E /* main.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE6B1BBD54420002E5A4 /* privacy_1.json in Resources */ = {isa = PBXBuildFile; fileRef = BBF1250D1BBBD22B001A317B /* privacy_1.json */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE6C1BBD54420002E5A4 /* privacy_1.json in Resources */ = {isa = PBXBuildFile; fileRef = BBF1250D1BBBD22B001A317B /* privacy_1.json */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE7F1BBD54C40002E5A4 /* OppiloConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF125981BBBF853001A317B /* OppiloConstants.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE801BBD54C50002E5A4 /* OppiloConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF125981BBBF853001A317B /* OppiloConstants.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE831BBD54CB0002E5A4 /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0456771BB9D90900A0239E /* ActionRequestHandler.m */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE851BBD54D10002E5A4 /* DefaultBlockerJson.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBF125951BBBEE30001A317B /* DefaultBlockerJson.plist */; settings = {ASSET_TAGS = (); }; };
+		BBE3DE861BBD54D10002E5A4 /* DefaultBlockerJson.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBF125951BBBEE30001A317B /* DefaultBlockerJson.plist */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBE3DD741BBD2F800002E5A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0456301BB9D8B700A0239E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE3DD211BBD2D360002E5A4;
+			remoteInfo = PrivacyNuContentBlocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBE3DD761BBD2F800002E5A4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BBE3DD731BBD2F800002E5A4 /* PrivacyNuContentBlocker.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9E2BB92F1BBAC9C2003AB58D /* ParallaxScrollingFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxScrollingFramework.h; sourceTree = "<group>"; };
+		9E2BB9301BBAC9C2003AB58D /* ParallaxScrollingFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxScrollingFramework.m; sourceTree = "<group>"; };
+		9E34B0E61BBD60AD0052B7A2 /* AppSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSetupViewController.h; sourceTree = "<group>"; };
+		9E34B0E71BBD60AD0052B7A2 /* AppSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSetupViewController.m; sourceTree = "<group>"; };
+		9E34B0E81BBD60AD0052B7A2 /* ExtensionSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionSetupViewController.h; sourceTree = "<group>"; };
+		9E34B0E91BBD60AD0052B7A2 /* ExtensionSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionSetupViewController.m; sourceTree = "<group>"; };
+		9E34B0EA1BBD60AD0052B7A2 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		9E34B0EB1BBD60AD0052B7A2 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		9E34B0EC1BBD60AD0052B7A2 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		9E34B0ED1BBD60AD0052B7A2 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		9E34B0EE1BBD60AD0052B7A2 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		9E9968981BC6487000939CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E9968A41BC6814B00939CBC /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		9E9968A71BC6BF3100939CBC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BB04563C1BB9D8B700A0239E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB04563E1BB9D8B700A0239E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB04563F1BB9D8B700A0239E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB0456411BB9D8B700A0239E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB0456421BB9D8B700A0239E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB0456451BB9D8B700A0239E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB0456471BB9D8B700A0239E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB04564A1BB9D8B700A0239E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB04564C1BB9D8B700A0239E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0456741BB9D90900A0239E /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		BB0456761BB9D90900A0239E /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
+		BB0456771BB9D90900A0239E /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
+		BB0456791BB9D90900A0239E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC575F01BBC519D0014F60B /* NuBlockListProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuBlockListProperties.h; sourceTree = "<group>"; };
+		BBC575F11BBC519D0014F60B /* NuBlockListProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuBlockListProperties.m; sourceTree = "<group>"; };
+		BBE3DBF11BBD13DE0002E5A4 /* NUWhiiteListRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUWhiiteListRule.h; sourceTree = "<group>"; };
+		BBE3DBF21BBD13DE0002E5A4 /* NUWhiiteListRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUWhiiteListRule.m; sourceTree = "<group>"; };
+		BBE3DCF91BBD2D0F0002E5A4 /* Oppilo_Privacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oppilo_Privacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE3DD0C1BBD2D100002E5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE3DD221BBD2D360002E5A4 /* PrivacyNuContentBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PrivacyNuContentBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE3DD291BBD2D360002E5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE3DD851BBD30670002E5A4 /* Oppilo_Privacy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Oppilo_Privacy.entitlements; sourceTree = "<group>"; };
+		BBE3DD861BBD30730002E5A4 /* PrivacyNuContentBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyNuContentBlocker.entitlements; sourceTree = "<group>"; };
+		BBE3DE011BBD389F0002E5A4 /* OppilioAppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OppilioAppConstants.h; sourceTree = "<group>"; };
+		BBE3DE021BBD389F0002E5A4 /* OppilioAppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OppilioAppConstants.m; sourceTree = "<group>"; };
+		BBE3DE381BBD516D0002E5A4 /* OppilioAppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OppilioAppConstants.h; sourceTree = "<group>"; };
+		BBE3DE391BBD516D0002E5A4 /* OppilioAppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OppilioAppConstants.m; sourceTree = "<group>"; };
+		BBE3DE3C1BBD524E0002E5A4 /* AvailableBlockList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AvailableBlockList.plist; sourceTree = "<group>"; };
+		BBF1250D1BBBD22B001A317B /* privacy_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = privacy_1.json; sourceTree = "<group>"; };
+		BBF125951BBBEE30001A317B /* DefaultBlockerJson.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultBlockerJson.plist; sourceTree = "<group>"; };
+		BBF125971BBBF853001A317B /* OppiloConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OppiloConstants.h; sourceTree = "<group>"; };
+		BBF125981BBBF853001A317B /* OppiloConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OppiloConstants.m; sourceTree = "<group>"; };
+		BBF125A01BBC0126001A317B /* AvailableBlockList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AvailableBlockList.plist; sourceTree = "<group>"; };
+		BBF125A21BBC01DB001A317B /* OppiloManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OppiloManager.h; sourceTree = "<group>"; };
+		BBF125A31BBC01DB001A317B /* OppiloManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OppiloManager.m; sourceTree = "<group>"; };
+		BBF125A61BBC07AF001A317B /* OppiloBlockerListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OppiloBlockerListManager.h; sourceTree = "<group>"; };
+		BBF125A71BBC07AF001A317B /* OppiloBlockerListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OppiloBlockerListManager.m; sourceTree = "<group>"; };
+		BBF125AA1BBC0B04001A317B /* Oppilo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Oppilo.entitlements; sourceTree = "<group>"; };
+		BBF125AB1BBC0B1C001A317B /* NUContentBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NUContentBlocker.entitlements; sourceTree = "<group>"; };
+		BBF125AD1BBC27FD001A317B /* OppiloUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OppiloUtils.h; sourceTree = "<group>"; };
+		BBF125AE1BBC27FD001A317B /* OppiloUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OppiloUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBE3DCF61BBD2D0F0002E5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9968A81BC6BF3100939CBC /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE3DD1F1BBD2D360002E5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB04562F1BB9D8B700A0239E = {
+			isa = PBXGroup;
+			children = (
+				9E9968A71BC6BF3100939CBC /* MessageUI.framework */,
+				BB04563A1BB9D8B700A0239E /* Oppilo */,
+				BB0456731BB9D90900A0239E /* NUContentBlocker */,
+				BBE3DD8C1BBD31CC0002E5A4 /* Privacy */,
+				BB0456391BB9D8B700A0239E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB0456391BB9D8B700A0239E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBE3DCF91BBD2D0F0002E5A4 /* Oppilo_Privacy.app */,
+				BBE3DD221BBD2D360002E5A4 /* PrivacyNuContentBlocker.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB04563A1BB9D8B700A0239E /* Oppilo */ = {
+			isa = PBXGroup;
+			children = (
+				BBE3DA4D1BBCE3010002E5A4 /* Commons */,
+				BBF125AA1BBC0B04001A317B /* Oppilo.entitlements */,
+				BB04564C1BB9D8B700A0239E /* Info.plist */,
+				BBE3DE011BBD389F0002E5A4 /* OppilioAppConstants.h */,
+				BBE3DE021BBD389F0002E5A4 /* OppilioAppConstants.m */,
+			);
+			path = Oppilo;
+			sourceTree = "<group>";
+		};
+		BB04563B1BB9D8B700A0239E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB04563C1BB9D8B700A0239E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB0456731BB9D90900A0239E /* NUContentBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				BBE3DA4E1BBCE3250002E5A4 /* Commons */,
+				BBF125AB1BBC0B1C001A317B /* NUContentBlocker.entitlements */,
+				BBF125A01BBC0126001A317B /* AvailableBlockList.plist */,
+				BB0456791BB9D90900A0239E /* Info.plist */,
+			);
+			path = NUContentBlocker;
+			sourceTree = "<group>";
+		};
+		BB0456811BB9D9A400A0239E /* BlockerLists */ = {
+			isa = PBXGroup;
+			children = (
+				BBF125081BBBD22B001A317B /* Generic */,
+			);
+			path = BlockerLists;
+			sourceTree = SOURCE_ROOT;
+		};
+		BBE3DA4D1BBCE3010002E5A4 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				9E34B0EA1BBD60AD0052B7A2 /* Localizable.strings */,
+				BBE3DBF01BBD13BB0002E5A4 /* Models */,
+				BB04563E1BB9D8B700A0239E /* AppDelegate.h */,
+				BB04563F1BB9D8B700A0239E /* AppDelegate.m */,
+				BBF125AD1BBC27FD001A317B /* OppiloUtils.h */,
+				BBF125AE1BBC27FD001A317B /* OppiloUtils.m */,
+				9E2BB92F1BBAC9C2003AB58D /* ParallaxScrollingFramework.h */,
+				9E2BB9301BBAC9C2003AB58D /* ParallaxScrollingFramework.m */,
+				BB0456411BB9D8B700A0239E /* ViewController.h */,
+				BB0456421BB9D8B700A0239E /* ViewController.m */,
+				9E34B0ED1BBD60AD0052B7A2 /* PageViewController.h */,
+				9E34B0EE1BBD60AD0052B7A2 /* PageViewController.m */,
+				9E34B0EB1BBD60AD0052B7A2 /* MessageViewController.h */,
+				9E34B0EC1BBD60AD0052B7A2 /* MessageViewController.m */,
+				9E34B0E61BBD60AD0052B7A2 /* AppSetupViewController.h */,
+				9E34B0E71BBD60AD0052B7A2 /* AppSetupViewController.m */,
+				9E34B0E81BBD60AD0052B7A2 /* ExtensionSetupViewController.h */,
+				9E34B0E91BBD60AD0052B7A2 /* ExtensionSetupViewController.m */,
+				BBF125A21BBC01DB001A317B /* OppiloManager.h */,
+				BBF125A31BBC01DB001A317B /* OppiloManager.m */,
+				BBF125A61BBC07AF001A317B /* OppiloBlockerListManager.h */,
+				BBF125A71BBC07AF001A317B /* OppiloBlockerListManager.m */,
+				BB0456441BB9D8B700A0239E /* Main.storyboard */,
+				BB0456491BB9D8B700A0239E /* LaunchScreen.storyboard */,
+				BB0456471BB9D8B700A0239E /* Assets.xcassets */,
+				BB04563B1BB9D8B700A0239E /* Supporting Files */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		BBE3DA4E1BBCE3250002E5A4 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				BB0456811BB9D9A400A0239E /* BlockerLists */,
+				BB0456741BB9D90900A0239E /* blockerList.json */,
+				BBF125971BBBF853001A317B /* OppiloConstants.h */,
+				BBF125981BBBF853001A317B /* OppiloConstants.m */,
+				BB0456761BB9D90900A0239E /* ActionRequestHandler.h */,
+				BB0456771BB9D90900A0239E /* ActionRequestHandler.m */,
+				BBF125951BBBEE30001A317B /* DefaultBlockerJson.plist */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		BBE3DBF01BBD13BB0002E5A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BBC575F01BBC519D0014F60B /* NuBlockListProperties.h */,
+				BBC575F11BBC519D0014F60B /* NuBlockListProperties.m */,
+				BBE3DBF11BBD13DE0002E5A4 /* NUWhiiteListRule.h */,
+				BBE3DBF21BBD13DE0002E5A4 /* NUWhiiteListRule.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BBE3DCFA1BBD2D100002E5A4 /* Oppilo_Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				9E9968981BC6487000939CBC /* Assets.xcassets */,
+				BBE3DE381BBD516D0002E5A4 /* OppilioAppConstants.h */,
+				BBE3DE391BBD516D0002E5A4 /* OppilioAppConstants.m */,
+				BBE3DD851BBD30670002E5A4 /* Oppilo_Privacy.entitlements */,
+				BBE3DD0C1BBD2D100002E5A4 /* Info.plist */,
+				9E9968A41BC6814B00939CBC /* Localizable.strings */,
+			);
+			path = Oppilo_Privacy;
+			sourceTree = "<group>";
+		};
+		BBE3DD231BBD2D360002E5A4 /* PrivacyNuContentBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				BBE3DD861BBD30730002E5A4 /* PrivacyNuContentBlocker.entitlements */,
+				BBE3DE3C1BBD524E0002E5A4 /* AvailableBlockList.plist */,
+				BBE3DD291BBD2D360002E5A4 /* Info.plist */,
+			);
+			path = PrivacyNuContentBlocker;
+			sourceTree = "<group>";
+		};
+		BBE3DD8C1BBD31CC0002E5A4 /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				BBE3DCFA1BBD2D100002E5A4 /* Oppilo_Privacy */,
+				BBE3DD231BBD2D360002E5A4 /* PrivacyNuContentBlocker */,
+			);
+			name = Privacy;
+			sourceTree = "<group>";
+		};
+		BBF125081BBBD22B001A317B /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				BBF1250D1BBBD22B001A317B /* privacy_1.json */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBE3DCF81BBD2D0F0002E5A4 /* Oppilo_Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE3DD181BBD2D100002E5A4 /* Build configuration list for PBXNativeTarget "Oppilo_Privacy" */;
+			buildPhases = (
+				BBE3DCF51BBD2D0F0002E5A4 /* Sources */,
+				BBE3DCF61BBD2D0F0002E5A4 /* Frameworks */,
+				BBE3DCF71BBD2D0F0002E5A4 /* Resources */,
+				BBE3DD761BBD2F800002E5A4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBE3DD751BBD2F800002E5A4 /* PBXTargetDependency */,
+			);
+			name = Oppilo_Privacy;
+			productName = Oppilo_Privacy;
+			productReference = BBE3DCF91BBD2D0F0002E5A4 /* Oppilo_Privacy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBE3DD211BBD2D360002E5A4 /* PrivacyNuContentBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE3DD2D1BBD2D390002E5A4 /* Build configuration list for PBXNativeTarget "PrivacyNuContentBlocker" */;
+			buildPhases = (
+				BBE3DD1E1BBD2D360002E5A4 /* Sources */,
+				BBE3DD1F1BBD2D360002E5A4 /* Frameworks */,
+				BBE3DD201BBD2D360002E5A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivacyNuContentBlocker;
+			productName = PrivacyNuContentBlocker;
+			productReference = BBE3DD221BBD2D360002E5A4 /* PrivacyNuContentBlocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB0456301BB9D8B700A0239E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nuova Labs";
+				TargetAttributes = {
+					BBE3DCF81BBD2D0F0002E5A4 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 35LCH3SE2Z;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					BBE3DD211BBD2D360002E5A4 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 35LCH3SE2Z;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BB0456331BB9D8B700A0239E /* Build configuration list for PBXProject "Oppilo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				fr,
+				de,
+				"zh-Hans",
+				"zh-Hant",
+				it,
+			);
+			mainGroup = BB04562F1BB9D8B700A0239E;
+			productRefGroup = BB0456391BB9D8B700A0239E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBE3DCF81BBD2D0F0002E5A4 /* Oppilo_Privacy */,
+				BBE3DD211BBD2D360002E5A4 /* PrivacyNuContentBlocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBE3DCF71BBD2D0F0002E5A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE3DE6B1BBD54420002E5A4 /* privacy_1.json in Resources */,
+				BBE3DE521BBD53C50002E5A4 /* Main.storyboard in Resources */,
+				BBE3DE581BBD53D60002E5A4 /* LaunchScreen.storyboard in Resources */,
+				BBE3DE851BBD54D10002E5A4 /* DefaultBlockerJson.plist in Resources */,
+				9E9968A51BC6814B00939CBC /* Localizable.strings in Resources */,
+				BBE3DE3D1BBD524E0002E5A4 /* AvailableBlockList.plist in Resources */,
+				9E9968991BC6487000939CBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE3DD201BBD2D360002E5A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE3DE861BBD54D10002E5A4 /* DefaultBlockerJson.plist in Resources */,
+				BBE3DE6C1BBD54420002E5A4 /* privacy_1.json in Resources */,
+				BBE3DE3E1BBD524E0002E5A4 /* AvailableBlockList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBE3DCF51BBD2D0F0002E5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE3DE5A1BBD53DE0002E5A4 /* main.m in Sources */,
+				BBE3DE501BBD53BF0002E5A4 /* OppiloBlockerListManager.m in Sources */,
+				9E99689E1BC673FD00939CBC /* MessageViewController.m in Sources */,
+				BBE3DE4E1BBD53BA0002E5A4 /* OppiloManager.m in Sources */,
+				9E9968A01BC6740700939CBC /* AppSetupViewController.m in Sources */,
+				BBE3DE4C1BBD53B50002E5A4 /* ViewController.m in Sources */,
+				9E9968A21BC6740A00939CBC /* ExtensionSetupViewController.m in Sources */,
+				BBE3DE481BBD53850002E5A4 /* OppiloUtils.m in Sources */,
+				BBE3DE421BBD53750002E5A4 /* NuBlockListProperties.m in Sources */,
+				BBE3DE3A1BBD516D0002E5A4 /* OppilioAppConstants.m in Sources */,
+				BBE3DE7F1BBD54C40002E5A4 /* OppiloConstants.m in Sources */,
+				BBE3DE441BBD537A0002E5A4 /* NUWhiiteListRule.m in Sources */,
+				BBE3DDBA1BBD34AF0002E5A4 /* ParallaxScrollingFramework.m in Sources */,
+				BBE3DE461BBD537F0002E5A4 /* AppDelegate.m in Sources */,
+				9E99689C1BC673F900939CBC /* PageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE3DD1E1BBD2D360002E5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE3DE801BBD54C50002E5A4 /* OppiloConstants.m in Sources */,
+				BBE3DE491BBD53860002E5A4 /* OppiloUtils.m in Sources */,
+				BBE3DE831BBD54CB0002E5A4 /* ActionRequestHandler.m in Sources */,
+				BBE3DE3B1BBD516D0002E5A4 /* OppilioAppConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBE3DD751BBD2F800002E5A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE3DD211BBD2D360002E5A4 /* PrivacyNuContentBlocker */;
+			targetProxy = BBE3DD741BBD2F800002E5A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB0456441BB9D8B700A0239E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0456451BB9D8B700A0239E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB0456491BB9D8B700A0239E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB04564A1BB9D8B700A0239E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB0456631BB9D8B700A0239E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB0456641BB9D8B700A0239E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBE3DD191BBD2D100002E5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Oppilo_Privacy/Oppilo_Privacy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Oppilo_Privacy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shalya.oppiloprivacy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		BBE3DD1A1BBD2D100002E5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Oppilo_Privacy/Oppilo_Privacy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Oppilo_Privacy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shalya.oppiloprivacy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		BBE3DD2E1BBD2D390002E5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = PrivacyNuContentBlocker/PrivacyNuContentBlocker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PrivacyNuContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shalya.oppiloprivacy.NuContentBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		BBE3DD2F1BBD2D390002E5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = PrivacyNuContentBlocker/PrivacyNuContentBlocker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PrivacyNuContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shalya.oppiloprivacy.NuContentBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0456331BB9D8B700A0239E /* Build configuration list for PBXProject "Oppilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0456631BB9D8B700A0239E /* Debug */,
+				BB0456641BB9D8B700A0239E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBE3DD181BBD2D100002E5A4 /* Build configuration list for PBXNativeTarget "Oppilo_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE3DD191BBD2D100002E5A4 /* Debug */,
+				BBE3DD1A1BBD2D100002E5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBE3DD2D1BBD2D390002E5A4 /* Build configuration list for PBXNativeTarget "PrivacyNuContentBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE3DD2E1BBD2D390002E5A4 /* Debug */,
+				BBE3DD2F1BBD2D390002E5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB0456301BB9D8B700A0239E /* Project object */;
+}
